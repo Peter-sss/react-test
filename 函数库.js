@@ -7,7 +7,6 @@
 
 // 3添加千位分隔符/去除千位分隔符 --- addThousandth/removeThousandth
 
-
 // 深拷贝
 function deepClone(obj) {
     let objClone = Array.isArray(obj) ? [] : {};
@@ -64,7 +63,6 @@ function sortByKey(array,key){
 function removeObjDuplication(arr, key) {
     let result = [];
     let obj = {};
-
     for (let i = 0; i < arr.length; i++) {
         if (!obj[arr[i][key]]) {
             result.push(arr[i]);
