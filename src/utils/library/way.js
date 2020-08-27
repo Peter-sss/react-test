@@ -118,3 +118,96 @@ function removeObjDuplication(arr, key) {
     }
     return result
 }
+
+// 构造树(方法一)
+function array1Tree(array) {
+    const result = []
+    if (!Array.isArray(array)) {
+        return result
+    }
+    array.forEach(item => {
+        delete item.children
+    })
+    const map = {}
+    array.forEach(item => {
+        map[item.id] = item
+    })
+    array.forEach(item => {
+        const parent = map[item.parentId]
+        if (parent) {
+            (parent.children || (parent.children = [])).push(item)
+        } else {
+            result.push(item)
+        }
+    })
+    return result
+}
+
+/**
+ *通过递归实现
+ * data 数组数据
+ * pid 顶级元素的parentId值
+ */
+//方法(二)
+const constructTree = (data, pid) => {
+    let tree = [];
+    let temp;
+    for (let i = 0; i < data.length; i++) {
+        if (data[i].parentId === pid) {
+            let obj = data[i];
+            temp = constructTree(data, data[i]._id);
+            if (temp.length > 0) {
+                obj.children = temp;
+            }
+            tree.push(obj);
+        }
+    }
+    return tree;
+}
+
+// 构造树方法(三)
+// 构造树形结构
+function constructorTree(groups) {
+    const PID = "PID";
+
+    // 创建 父=>子 字典, id=>实体 字段
+    let p_cMap = {};
+    let i_mMap = {};
+    (groups || []).map(group => {
+        let pId = group['parentId'] || PID;
+        let children = p_cMap[pId] || [];
+        children.push(group);
+        p_cMap[pId] = children;
+
+        i_mMap['_id'] = group;
+    });
+
+    // 构造树结构
+    let cFunction = (childrenItems) => {
+        return (childrenItems || []).map(item => {
+            return {
+                title: item['name'],
+                value: item['_id'],
+                key: item['_id'],
+                data: item,
+                selectable: item['selectable'],
+                repoType: item[`repoType`],
+                _id: item['_id'],
+                parentId: item[`parentId`],
+                children: cFunction(p_cMap[item['_id']] || [])
+            }
+        })
+    };
+
+    return cFunction(p_cMap[PID]);
+}
+
+//扁平化树结构
+let resultArr = [];
+function flat(nodes) {
+    if (!nodes || nodes.length === 0) return [];
+    nodes.forEach((node) => {
+        resultArr.push({...node});
+        return flat(node.children);
+    });
+}

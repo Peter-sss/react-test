@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="96cb092f-e841-40ef-bd4e-ef26582755b5" name="默认更改列表" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/函数库.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/library/way.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +18,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="2" />
+  </component>
   <component name="ProjectId" id="1ZeudHeemLTLaNPm05gVDKvYexT" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +34,13 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="com.github.izhangzhihao.rainbow.brackets.settings.RainbowConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\26228\Desktop\私库文档\react-test\src\utils\library" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,6 +66,8 @@
       <workItem from="1590731637318" duration="20000" />
       <workItem from="1590819185329" duration="749000" />
       <workItem from="1591946933462" duration="1009000" />
+      <workItem from="1598508179617" duration="665000" />
+      <workItem from="1598511644653" duration="735000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1585212935185</created>
@@ -86,5 +98,11 @@
     <MESSAGE value="commit" />
     <option name="LAST_COMMIT_MESSAGE" value="commit" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598509144006">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598509144006" />
   </component>
 </project>
