@@ -1,9 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="96cb092f-e841-40ef-bd4e-ef26582755b5" name="默认更改列表" comment="commit">
+      <change afterPath="$PROJECT_DIR$/src/utils/library/fullScreen.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/函数库.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/library/way.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/library/way.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/library/funcWay.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +43,9 @@
     <option name="projectConfigVersion" value="2" />
   </component>
   <component name="ProjectId" id="1ZeudHeemLTLaNPm05gVDKvYexT" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="新增" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -67,7 +91,11 @@
       <workItem from="1590819185329" duration="749000" />
       <workItem from="1591946933462" duration="1009000" />
       <workItem from="1598508179617" duration="665000" />
-      <workItem from="1598511644653" duration="735000" />
+      <workItem from="1598511644653" duration="950000" />
+      <workItem from="1598512639080" duration="443000" />
+      <workItem from="1598519457989" duration="475000" />
+      <workItem from="1598520301983" duration="317000" />
+      <workItem from="1598603494428" duration="992000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1585212935185</created>
