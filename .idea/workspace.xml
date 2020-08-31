@@ -16,16 +16,17 @@
         <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:dependabot" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96cb092f-e841-40ef-bd4e-ef26582755b5" name="默认更改列表" comment="commit">
-      <change afterPath="$PROJECT_DIR$/src/utils/library/fullScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/library/way.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/library/funcWay.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
-    </list>
+    <list default="true" id="96cb092f-e841-40ef-bd4e-ef26582755b5" name="默认更改列表" comment="update" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +45,7 @@
   </component>
   <component name="ProjectId" id="1ZeudHeemLTLaNPm05gVDKvYexT" />
   <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="更新" />
     <ConfirmationsSetting value="2" id="新增" />
   </component>
   <component name="ProjectViewState">
@@ -95,7 +97,7 @@
       <workItem from="1598512639080" duration="443000" />
       <workItem from="1598519457989" duration="475000" />
       <workItem from="1598520301983" duration="317000" />
-      <workItem from="1598603494428" duration="992000" />
+      <workItem from="1598603494428" duration="1269000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1585212935185</created>
@@ -104,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585212935185</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update">
+      <created>1598604675461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598604675461</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,13 +133,26 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="438" y="0" key="CommitChangelistDialog2" timestamp="1598604671048">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="438" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1598604671048" />
     <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1598509144006">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1598509144006" />
+    <state x="546" y="114" key="RollbackChangesDialog" timestamp="1598604647066">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="546" y="114" key="RollbackChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1598604647066" />
+    <state x="582" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598604533251">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="582" y="325" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1598604533251" />
   </component>
 </project>
